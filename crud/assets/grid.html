@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Bootstrap Grid</title>
+        <!-- load bootstrap css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    </head> 
+<body>
+    <div class="container">
+        <h5>Grid ukuran x1 (extra Large) berlaku jika device berukuran
+            sangat lebar (lebih dari 1200px)</h5>
+            <!--class row digunakan untuk mengatur agar div berposisi inline(menyamping)
+            tanpa class row, div akan berposisi (flow) turun ke bawah-->
+    <div class="row">
+        <div class="col-xl-6 bg-primary">
+            Ini adalah grid dengan ukuran 6/12
+        </div>
+        <div class="col-xl-3 bg-success">
+            ini adlah grid dengan ukuran 3/12
+        </div>
+        <div class="col-xl-3 bg-danger">
+            Ini adalah grid dengan ukuran 3/12
+        </div> 
+    </div>
+
+    <h5>Grid Ukuran sm(Small) berlaku jika device 
+        berukuran sangat lebar (lebih dari 576px)</h5>
+        <div class="row">
+            <div class="col-sm-2 bg-primary">
+                Ini adalah grid dengan ukuran 2/12
+            </div>
+            <div class="col-sm-3 bg-info">
+                Ini adlah grid dengan ukuran 3/12
+            </div>
+            <div class="col-sm-4 bg-success">
+                Ini adlah grid dengan ukuran 4/12
+            </div>
+            <div class="col-sm-3 bg-warning">
+                Ini adalah grid dengan ukuran 3/12
+            </div>
+        </div>
+    </div>
+</body>
+</html>
